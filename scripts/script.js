@@ -98,6 +98,11 @@ function Random() {
     result[0].innerHTML = random;
 }
 
+//14th script
+function toogleBackground() {
+     var element = document.getElementById("standard-body");
+  element.classList.toggle("another-background");
+}
 
 
 
