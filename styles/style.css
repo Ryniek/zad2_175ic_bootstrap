@@ -1,0 +1,15 @@
+#demo {
+    font-weight: 700;
+}
+#page-header {
+    min-height: 100px;
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    opacity: 1;
+}

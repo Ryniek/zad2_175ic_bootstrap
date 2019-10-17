@@ -36,3 +36,17 @@ function colorChanging() {
     random = Math.floor(Math.random() * 8);
     x[0].style.color = colors[random];
 }
+//7th script
+function pageResizing() {
+    var y = window.outerWidth;
+    var x = window.outerHeight;
+     var txt = "Window size: width=" + y + ", height=" + x;
+    document.getElementById("demo").innerHTML = txt;
+}
+//8th script
+function opacityChanger() {
+    var x = document.getElementById('page-header');
+    x.style.opacity = 1 - window.scrollY / 700;
+    console.log(scrollY);
+}
+
