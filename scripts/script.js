@@ -47,6 +47,24 @@ function pageResizing() {
 function opacityChanger() {
     var x = document.getElementById('page-header');
     x.style.opacity = 1 - window.scrollY / 700;
-    console.log(scrollY);
 }
+//9th script
+var counter = 0;
+var weight = 0;
+function clickCounter() {
+    var x = document.getElementsByClassName("clicker");
+    counter++;
+    x[0].innerHTML = counter;
+    weight += 100;
+    x[0].style.fontWeight = weight;
+    if(counter == 5)
+        x[0].style.color = "orange";
+}
+//10th script
+function dbClickTable() {
+    var node = document.createElement("tr");
+    var nodetd = node.appendChild()
+    node.classList.add("list-group-item");
+}
+
 
