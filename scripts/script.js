@@ -30,3 +30,9 @@ function myFunction() {
     }
 }
 //6th script
+function colorChanging() {
+    var colors = ['red', 'blue', 'green', 'yellow', 'black', 'orange', 'purple', 'grey']
+    var x = document.getElementsByClassName("form-control");
+    random = Math.floor(Math.random() * 8);
+    x[0].style.color = colors[random];
+}
