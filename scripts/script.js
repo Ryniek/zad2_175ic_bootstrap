@@ -23,5 +23,10 @@ function mouseOut() {
 }
 //5th script
 function myFunction() {
-    document.querySelectorAll(".jakasklasa").style.backgroundColor = "grey";
+    var x, i;
+    x = document.querySelectorAll(".jakasklasa");
+    for(i = 0; i < x.length; i++) {
+        x[i].style.backgroundColor = "blue";
+    }
 }
+//6th script
