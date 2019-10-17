@@ -49,6 +49,7 @@
           </div>
           <textarea class="form-control" aria-label="With textarea" onkeyup="colorChanging()"></textarea>
         </div>
+        <span>Skrypt 7:</span>
         <p id="demo"></p>
         <br />
         <p class="clicker"></p>
@@ -73,7 +74,7 @@
         <p>Wprowadz pierwsza liczbe</p>
         <input type="number" id="second-field">
         <p>Wprowadz druga liczbe</p>
-        <label for="wynik">Result, skrypt nr 12: </label><p class="wynik"></p>
+        <label for="wynik">Result, skrypt nr 12: </label><p class="score"></p>
         <button type="button" class="btn btn-success" onclick="Append()">Dodaj</button>
 
         <br />
@@ -87,7 +88,12 @@
         <br />
         <br />
           
-           <button type="button" class="btn btn-danger" onclick="toogleBackground()">Zmień kolor tła, skrypt 14</button>
+        <button type="button" class="btn btn-danger" onclick="toogleBackground()">Zmień kolor tła, skrypt 14</button>
+        <br />
+        <br />
+
+        <input id="go" type="button" value="Kliknij mnie, skrypt 15" onclick="promptDisplay()">
+        <p id="msg"></p>
 
 
 

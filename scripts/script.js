@@ -83,8 +83,8 @@ function Append() {
     var first_field = parseInt(x);
     var y = document.getElementById('second-field').value;
     var second_field = parseInt(y);
-    var result = document.getElementsByClassName("wynik");
-    result[0] = first_field + second_field;
+    var result = document.getElementsByClassName("score");
+    result[0].innerHTML = first_field + second_field;
 }
 
 //13th script
@@ -104,7 +104,15 @@ function toogleBackground() {
   element.classList.toggle("another-background");
 }
 
-
+//15th script
+function promptDisplay() {
+    var output;
+    var person = prompt("Wprowadz cokolwiek, skrypt 15", "Michu Rynski");
+    if ( person != null) {
+       output = "Napisales: " + person + " <- wlasnie to";
+    }
+    document.getElementById( "msg" ).innerText = output;
+}
 
 
 
