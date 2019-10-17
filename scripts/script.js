@@ -84,8 +84,21 @@ function Append() {
     var y = document.getElementById('second-field').value;
     var second_field = parseInt(y);
     var result = document.getElementsByClassName("wynik");
-    result[0].innerHTML = first_field + second_field;
+    result[0] = first_field + second_field;
 }
+
+//13th script
+function Random() {
+    var x = document.getElementById('first-random').value;
+    var first_random = parseInt(x);
+    var y = document.getElementById('second-random').value;
+    var second_random = parseInt(y);
+    var result = document.getElementsByClassName("result");
+    var random = Math.floor(Math.random() * second_random) + first_random;
+    result[0].innerHTML = random;
+}
+
+
 
 
 
