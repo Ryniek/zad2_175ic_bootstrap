@@ -7,12 +7,44 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!-- Js -->
     <title>Zad 2 - 175ic - bootstrap</title>
   </head>
+  
   <body>
-    <h1>Hello, world!</h1>
+    <h1 id="hello" onmouseover="mouseOver()" onmouseout="mouseOut()">Hello, world!</h1>
+    <button type="button" class="btn btn-primary">
+     Notifications <span class="badge badge-light"></span>
+     </button>
+     
+    <button type="button" class="btn btn-danger">
+     Notifications <span class="badge badge-light"></span>
+     </button>
 
+     <ul class="list-group" id="my-list">
+         <li class="list-group-item">Pierwsza opcja</li>
+         <li class="list-group-item">Druga opcja</li>
+         <li class="list-group-item">Trzecia opcja</li>
+     </ul>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">With textarea</span>
+      </div>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+    <br />
+    <p class="jakasklasa">
+        Lorem ipsum dolor sit.
+    </p>
+    <h4 class="jakasklasa">
+        Lorem ipsum dolor sit.
+    </h4>
+     <button class="btn btn-info clickme" onclick="myFunction()">Click to change color</button>
+
+     
+     
+   
+    <script src="scripts/script.js"></script>    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
