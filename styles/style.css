@@ -16,11 +16,11 @@
 .clicker {
     font-size: 25px;
 }
-.penguin-img {
+.penguin-figure {
     width: 200px;
     margin: 0;
 }
-.penguin-img img {
+.penguin-figure img {
     max-width: 100%;
     max-height: 100%;
 }

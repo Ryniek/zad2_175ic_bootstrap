@@ -61,10 +61,8 @@ function clickCounter() {
         x[0].style.color = "orange";
 }
 //10th script
-function dbClickTable() {
-    var node = document.createElement("tr");
-    var nodetd = node.appendChild()
-    node.classList.add("list-group-item");
+function dbClickImage() {
+    var x = document.getElementById('penguin-img').style.transform = "rotate(90deg)" ;
 }
 
 
