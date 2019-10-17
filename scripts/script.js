@@ -124,20 +124,31 @@ function deleteAllp() {
 } 
 
 //17th script
-    var px = document.createElement("p")
-    var xx = "Browser Name: " + navigator.appName; 
-    var py = document.createElement("p")
-    var yy = "Version Info: " + navigator.appVersion;
-    var pz = document.createElement("p")
-    var zz =  "Language of the browser: " + navigator.language;;
-    var container = document.getElementById("p-container");
-    container.appendChild(px);
-    px.innerHTML = xx;
-    container.appendChild(py);
-    py.innerHTML = yy;
-    container.appendChild(pz);
-    pz.innerHTML = zz;
+var px = document.createElement("p")
+var xx = "Browser Name: " + navigator.appName; 
+var py = document.createElement("p")
+var yy = "Version Info: " + navigator.appVersion;
+var pz = document.createElement("p")
+var zz =  "Language of the browser: " + navigator.language;;
+var container = document.getElementById("p-container");
+container.appendChild(px);
+px.innerHTML = xx;
+container.appendChild(py);
+py.innerHTML = yy;
+container.appendChild(pz);
+pz.innerHTML = zz;
 
+//18th script
+function searchFunction() {
+    var a = document.getElementById("myInput").value;
+    var b = document.querySelector(a);
+    if(b != null) {
+        b.scrollIntoView();
+        b.classList.toggle("show-element");
+    } else {
+        alert("Brak takiego znacznika");
+    }
+}
 
 
 

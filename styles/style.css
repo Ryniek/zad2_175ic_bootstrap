@@ -46,3 +46,9 @@ image2-figure {
 .hide-p {
     display: none;
 }
+.show-element {
+    border: 5px solid black;
+}
+#myInput {
+    border: 3px solid green;
+}
