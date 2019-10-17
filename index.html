@@ -41,17 +41,26 @@
      <br />
          <div class="input-group">
       <div class="input-group-prepend">
-        <span class="input-group-text">With textarea</span>
+        <span class="input-group-text">Wpisz coś i zobacz jak zmieniają się kolory</span>
       </div>
       <textarea class="form-control" aria-label="With textarea" onkeyup="colorChanging()"></textarea>
     </div>
     <p class="clicker"></p>
-    <button type="button" class="btn btn-outline-dark" onclick="clickCounter()">Dark</button>
+    <button type="button" class="btn btn-outline-dark" onclick="clickCounter()">Licznik</button>
     
     <br />
     <figure class = "penguin-figure">
         <img ondblclick="dbClickImage()" id="penguin-img" src="images/penguin.jpg" alt="Pingwin z google"/>
     </figure>
+    <p>Kliknij dwukrotnie obrazek powyżej</p>
+    
+    <br />
+    <figure class = "image2-figure">
+        <img id="image2" src="images/image2.jpg" alt="image2"/>
+    </figure>
+    
+    <button type="button" class="btn btn-secondary" onclick="showHideAbove()">Schowaj/pokaż obrazek powyżej</button>
+    
     
     
     <br />

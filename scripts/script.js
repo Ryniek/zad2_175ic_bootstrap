@@ -10,7 +10,7 @@ console.log(z);
 z.innerHTML = "Hello, Michu";
 //3rd script
 var node = document.createElement("li");
-var textnode = document.createTextNode("Czwarta opcja"); 
+var textnode = document.createTextNode("Czwarta opcja dodana za pomocą js"); 
 node.appendChild(textnode);
 node.classList.add("list-group-item");
 document.getElementById("my-list").appendChild(node);
@@ -64,5 +64,30 @@ function clickCounter() {
 function dbClickImage() {
     var x = document.getElementById('penguin-img').style.transform = "rotate(90deg)" ;
 }
+
+//11th script
+var flag = true;
+function showHideAbove() {
+    if(flag == true){
+        document.getElementById('image2').style.display='block';
+        flag = false;
+    } else {
+        document.getElementById('image2').style.display='none';
+        flag = true;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
