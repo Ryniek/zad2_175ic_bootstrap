@@ -43,3 +43,6 @@ image2-figure {
 .another-background {
     background-color: grey;
 }
+.hide-p {
+    display: none;
+}

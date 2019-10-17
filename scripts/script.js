@@ -78,7 +78,7 @@ function showHideAbove() {
 }
 
 //12th script +
-function Append() {
+function append() {
     var x = document.getElementById('first-field').value;
     var first_field = parseInt(x);
     var y = document.getElementById('second-field').value;
@@ -87,8 +87,8 @@ function Append() {
     result[0].innerHTML = first_field + second_field;
 }
 
-//13th script
-function Random() {
+//13th script +
+function random() {
     var x = document.getElementById('first-random').value;
     var first_random = parseInt(x);
     var y = document.getElementById('second-random').value;
@@ -98,13 +98,13 @@ function Random() {
     result[0].innerHTML = random;
 }
 
-//14th script
+//14th script +
 function toogleBackground() {
      var element = document.getElementById("standard-body");
   element.classList.toggle("another-background");
 }
 
-//15th script
+//15th script +
 function promptDisplay() {
     var output;
     var person = prompt("Wprowadz cokolwiek, skrypt 15", "Michu Rynski");
@@ -114,6 +114,29 @@ function promptDisplay() {
     document.getElementById( "msg" ).innerText = output;
 }
 
+//16th script +
+function deleteAllp() {
+    var i;
+    var x = document.querySelectorAll('p');
+    for(i = 0; i < x.length; i ++) {
+        x[i].classList.toggle("hide-p");
+    }
+} 
+
+//17th script
+    var px = document.createElement("p")
+    var xx = "Browser Name: " + navigator.appName; 
+    var py = document.createElement("p")
+    var yy = "Version Info: " + navigator.appVersion;
+    var pz = document.createElement("p")
+    var zz =  "Language of the browser: " + navigator.language;;
+    var container = document.getElementById("p-container");
+    container.appendChild(px);
+    px.innerHTML = xx;
+    container.appendChild(py);
+    py.innerHTML = yy;
+    container.appendChild(pz);
+    pz.innerHTML = zz;
 
 
 
